@@ -1,0 +1,39 @@
+
+# IntelliJ IDEA
+.idea/
+*.iml
+*.ipr
+*.iws
+out/
+
+# Maven build output
+target/
+**/target/
+
+# Java compiled files
+*.class
+
+# Logs
+*.log
+logs/
+
+# Environment variables and secrets
+.env
+.env.*
+!.env.example
+
+# Local configuration overrides
+application-local.properties
+application-dev-local.properties
+application-prod-local.properties
+application-local.yml
+application-local.yaml
+
+# Operating system files
+.DS_Store
+Thumbs.db
+
+# Temporary files
+*.tmp
+*.bak
+*.swp
